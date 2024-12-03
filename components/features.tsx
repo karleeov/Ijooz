@@ -17,7 +17,15 @@ export default function Features() {
               <p className="text-orange-700 mb-6">
                 Our smart juice vending machine combines sleek design with innovative technology for an unparalleled user experience.
               </p>
-              <div className="w-full h-[300px] bg-orange-100 rounded-lg flex items-center justify-center text-orange-500">
+              <div 
+                className="w-full h-[300px] rounded-lg flex items-center justify-center text-orange-500"
+                style={{
+                  backgroundImage: "url('/1.png')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundColor: 'rgb(255, 237, 213)' // fallback bg-orange-100
+                }}
+              >
                 Hardware Image
               </div>
             </CardContent>
