@@ -18,8 +18,15 @@ export default function ProductShowcase() {
               <li>✓ Automatic cleaning system</li>
             </ul>
           </div>
-          <div className="bg-orange-100 rounded-lg flex items-center justify-center text-orange-500 min-h-[400px]">
-            Product Image
+          <div 
+            className="rounded-lg flex items-center justify-center text-orange-500 min-h-[400px]"
+            style={{
+              backgroundImage: "url('/home/image 3.png')",
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundColor: 'rgb(255, 237, 213)' // fallback bg-orange-100
+            }}
+          >
           </div>
         </div>
       </div>
