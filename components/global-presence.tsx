@@ -3,10 +3,10 @@ import Image from "next/image"
 
 export default function GlobalPresence() {
   const stats = [
-    { value: "500+", label: "Locations", icon: "🌎" },
-    { value: "1M+", label: "Cups Served", icon: "🍊" },
-    { value: "24/7", label: "Operation", icon: "⏰" },
-    { value: "100%", label: "Fresh", icon: "🌿" },
+    { value: "500+", label: "Locations", icon: "" },
+    { value: "1M+", label: "Cups Served", icon: "" },
+    { value: "24/7", label: "Operation", icon: "" },
+    { value: "100%", label: "Fresh", icon: "" },
   ]
 
   return (
@@ -15,10 +15,10 @@ export default function GlobalPresence() {
         <h2 className="text-4xl font-bold text-center mb-12 text-orange-800">Our Global Footprint</h2>
         <div className="mb-12 relative">
           <Image
-            src="/placeholder.svg?height=400&width=800"
+            src="/home/image-1.png"
             alt="Global Presence Map"
-            width={800}
-            height={400}
+            width={450}
+            height={250}
             className="mx-auto rounded-2xl shadow-2xl"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-yellow-500/20 rounded-2xl" />
@@ -38,4 +38,3 @@ export default function GlobalPresence() {
     </section>
   )
 }
-

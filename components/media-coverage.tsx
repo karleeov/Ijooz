@@ -2,7 +2,14 @@ import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 
 export default function MediaCoverage() {
-  const mediaLogos = Array(6).fill("/placeholder.svg?height=30&width=120")
+  const mediaLogos = [
+    "/home/image-2.png",
+    "/home/image-3.png",
+    "/home/image-4.png",
+    "/home/image-5.png",
+    "/home/image-6.png",
+    "/home/image-7.png"
+  ]
   
   return (
     <section className="py-20 bg-gradient-to-b from-white to-orange-50">
@@ -15,8 +22,8 @@ export default function MediaCoverage() {
               src={logo}
               alt={`Media logo ${index + 1}`}
               width={120}
-              height={30}
-              className="mx-auto grayscale hover:grayscale-0 transition-all duration-300"
+              height={80}
+              className="mx-auto hover:scale-105 transition-all duration-300"
             />
           ))}
         </div>
@@ -36,4 +43,3 @@ export default function MediaCoverage() {
     </section>
   )
 }
-
