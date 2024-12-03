@@ -15,7 +15,7 @@ export default function Hero() {
       </video>
       <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-yellow-500/20" />
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-        <div className="bg-white/30 backdrop-blur-sm p-8 rounded-2xl shadow-lg">
+        <div className="bg-orange-50/30 backdrop-blur-sm p-8 rounded-2xl shadow-lg">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-orange-900">
             Fresh. Healthy. <span className="text-orange-500">Instant.</span>
           </h1>
