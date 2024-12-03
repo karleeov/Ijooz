@@ -20,13 +20,12 @@ export default function Features() {
               <div 
                 className="w-full h-[300px] rounded-lg flex items-center justify-center text-orange-500"
                 style={{
-                  backgroundImage: "url('/1.png')",
+                  backgroundImage: "url('/home/image 1.png')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                   backgroundColor: 'rgb(255, 237, 213)' // fallback bg-orange-100
                 }}
               >
-                Hardware Image
               </div>
             </CardContent>
           </Card>
