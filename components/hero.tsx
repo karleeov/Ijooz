@@ -4,14 +4,15 @@ import Image from "next/image"
 export default function Hero() {
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden">
-      <div 
-        className="absolute inset-0 bg-cover bg-center z-0"
-        style={{
-          backgroundImage: "url('/hero-bg.jpg')",
-          backgroundBlendMode: "overlay",
-          backgroundColor: "rgba(255,165,0,0.1)"
-        }}
-      />
+      <video 
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      >
+        <source src="/home/videoplayback.mp4" type="video/mp4" />
+      </video>
       <div className="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-yellow-500/20" />
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-orange-900">
