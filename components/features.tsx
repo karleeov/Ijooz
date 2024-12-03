@@ -39,8 +39,15 @@ export default function Features() {
               <p className="text-orange-700 mb-6">
                 Our real-time monitoring and analytics platform ensures efficient operations and top-notch quality control.
               </p>
-              <div className="w-full h-[300px] bg-orange-100 rounded-lg flex items-center justify-center text-orange-500">
-                Software Interface
+              <div 
+                className="w-full h-[300px] rounded-lg flex items-center justify-center text-orange-500"
+                style={{
+                  backgroundImage: "url('/home/image 4.png')",
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundColor: 'rgb(255, 237, 213)' // fallback bg-orange-100
+                }}
+              >
               </div>
             </CardContent>
           </Card>
