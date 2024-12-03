@@ -51,7 +51,7 @@ export default function Supply() {
         </div>
         <div className="mt-12 text-center">
           <Image
-            src="/placeholder.svg?height=200&width=800"
+            src="/home/image-10.png"
             alt="Orange grove"
             width={800}
             height={200}

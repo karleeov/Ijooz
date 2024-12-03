@@ -7,12 +7,12 @@ export default function Gallery() {
         <h2 className="text-4xl font-bold text-center mb-12 text-orange-800">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
-            "/home/image-5.png",
-            "/home/image-6.png",
-            "/home/image-7.png",
+            "/home/image 5.png",
+            "/home/image 6.png",
+            "/home/image 7.png",
             "/home/image-8.png",
             "/home/image-9.png",
-            "/home/image-10.png"
+            "/home/image.png"
           ].map((image, index) => (
             <div 
               key={index} 
