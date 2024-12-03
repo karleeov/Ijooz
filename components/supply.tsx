@@ -53,8 +53,8 @@ export default function Supply() {
           <Image
             src="/home/image-10.png"
             alt="Orange grove"
-            width={800}
-            height={200}
+            width={400}
+            height={100}
             className="mx-auto rounded-xl shadow-lg"
           />
         </div>
