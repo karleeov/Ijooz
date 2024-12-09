@@ -103,7 +103,51 @@ export const translations = {
       "iJooz machine in public space",
       "User enjoying fresh juice",
       "iJooz machine interior mechanism"
-    ]
+    ],
+    // Supply section
+    supplyCommitmentTitle: "Our Commitment to Quality",
+    supplySection: {
+      title: "iJooz Supply",
+      description: "We ensure a constant supply of the freshest oranges, delivered right when you need them.",
+      features: [
+        { icon: "truck", text: "Just-in-time delivery" },
+        { icon: "leaf", text: "100% Fresh Oranges" },
+        { icon: "shieldCheck", text: "Quality Guaranteed" }
+      ]
+    },
+    recycleSection: {
+      title: "iJooz Recycle",
+      description: "Our commitment to sustainability extends beyond great juice. We're dedicated to eco-friendly practices.",
+      features: [
+        { icon: "recycle", text: "100% Recyclable Packaging" },
+        { icon: "leaf", text: "Composting Program" }
+      ]
+    },
+    orangeGroveAlt: "Orange grove",
+    // Footer section
+    footer: {
+      about: {
+        title: "About iJooz",
+        description: "Revolutionizing fresh juice vending with smart, healthy solutions for a better tomorrow."
+      },
+      contact: {
+        title: "Contact",
+        email: "Email: info@ijooz.com",
+        phone: "Phone: +852 1234 5678"
+      },
+      social: {
+        title: "Follow Us",
+        facebook: "Facebook",
+        twitter: "Twitter",
+        instagram: "Instagram"
+      },
+      newsletter: {
+        title: "Newsletter",
+        emailPlaceholder: "Your email",
+        subscribeButton: "Subscribe"
+      },
+      copyright: " 2024 iJooz Hong Kong. All rights reserved."
+    }
   },
   zh: {
     titleMain: "新鮮. 健康.",
@@ -209,6 +253,50 @@ export const translations = {
       "公共空間中的iJooz機器",
       "用戶享用新鮮果汁",
       "iJooz機器內部機制"
-    ]
+    ],
+    // Supply section
+    supplyCommitmentTitle: "我們對品質的承諾",
+    supplySection: {
+      title: "iJooz 供應",
+      description: "我們確保持續供應最新鮮的橙子，並在您需要的時候及時送達。",
+      features: [
+        { icon: "truck", text: "即時配送" },
+        { icon: "leaf", text: "100% 新鮮橙子" },
+        { icon: "shieldCheck", text: "品質保證" }
+      ]
+    },
+    recycleSection: {
+      title: "iJooz 回收",
+      description: "我們的承諾不僅僅是提供美味果汁。我們致力於環保實踐。",
+      features: [
+        { icon: "recycle", text: "100% 可回收包裝" },
+        { icon: "leaf", text: "堆肥計劃" }
+      ]
+    },
+    orangeGroveAlt: "橙子果園",
+    // Footer section
+    footer: {
+      about: {
+        title: "關於 iJooz",
+        description: "用智能、健康的解決方案革新鮮榨果汁販賣，為明天創造更美好的未來。"
+      },
+      contact: {
+        title: "聯絡我們",
+        email: "電郵：info@ijooz.com",
+        phone: "電話：+852 1234 5678"
+      },
+      social: {
+        title: "關注我們",
+        facebook: "Facebook",
+        twitter: "Twitter",
+        instagram: "Instagram"
+      },
+      newsletter: {
+        title: "訂閱通訊",
+        emailPlaceholder: "您的電子郵件",
+        subscribeButton: "訂閱"
+      },
+      copyright: " 2024 iJooz 香港。保留所有權利。"
+    }
   }
 }
