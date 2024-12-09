@@ -1,22 +1,24 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
+import { useLanguage } from "@/context/LanguageContext"
+import { translations } from "@/utils/translations"
 
 export default function GlobalPresence() {
-  const stats = [
-    { value: "500+", label: "Locations", icon: "" },
-    { value: "1M+", label: "Cups Served", icon: "" },
-    { value: "24/7", label: "Operation", icon: "" },
-    { value: "100%", label: "Fresh", icon: "" },
-  ]
+  const { language } = useLanguage();
+  const t = translations[language];
+
+  const stats = t.stats;
 
   return (
     <section className="py-20 bg-gradient-to-b from-white to-orange-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-orange-800">Our Global Footprint</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 text-orange-800">{t.globalPresenceTitle}</h2>
         <div className="mb-12 relative">
           <Image
             src="/home/image-1.png"
-            alt="Global Presence Map"
+            alt={t.globalPresenceImageAlt}
             width={450}
             height={250}
             className="mx-auto rounded-2xl shadow-2xl"
@@ -27,7 +29,6 @@ export default function GlobalPresence() {
           {stats.map((stat, index) => (
             <Card key={index} className="bg-white/80 backdrop-blur-sm border-orange-200 shadow-xl">
               <CardContent className="p-6 text-center">
-                <div className="text-4xl mb-2">{stat.icon}</div>
                 <div className="text-3xl font-bold text-orange-500 mb-2">{stat.value}</div>
                 <div className="text-sm text-orange-700">{stat.label}</div>
               </CardContent>

@@ -1,18 +1,24 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Heart, Zap, Smile, Brain } from 'lucide-react'
+import { useLanguage } from "@/context/LanguageContext"
+import { translations } from "@/utils/translations"
 
 export default function HealthBenefits() {
-  const benefits = [
-    { icon: Heart, title: "Heart Health", description: "Rich in flavonoids that support cardiovascular health" },
-    { icon: Zap, title: "Energy Boost", description: "Natural sugars provide a quick and sustained energy lift" },
-    { icon: Smile, title: "Immune Support", description: "High in Vitamin C to strengthen your immune system" },
-    { icon: Brain, title: "Cognitive Function", description: "Antioxidants may improve memory and brain function" },
-  ]
+  const { language } = useLanguage();
+  const t = translations[language];
+
+  const icons = [Heart, Zap, Smile, Brain];
+  const benefits = t.benefits.map((benefit, index) => ({
+    ...benefit,
+    icon: icons[index]
+  }));
 
   return (
     <section className="py-20 bg-gradient-to-b from-white to-orange-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-orange-800">Health Benefits of Fresh Orange Juice</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 text-orange-800">{t.healthBenefitsTitle}</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {benefits.map((benefit, index) => (
             <Card key={index} className="bg-white/80 backdrop-blur-sm border-orange-200 shadow-xl">
@@ -28,4 +34,3 @@ export default function HealthBenefits() {
     </section>
   )
 }
-
