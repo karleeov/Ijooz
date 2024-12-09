@@ -74,6 +74,35 @@ export const translations = {
         quote: "iJooz is revolutionizing the fresh juice industry with their innovative smart vending solutions.",
         source: "Tech Innovators Magazine"
       }
+    ],
+    // Testimonials section
+    testimonialsTitle: "What Our Customers Say",
+    testimonials: [
+      {
+        name: "John Doe",
+        role: "Business Owner",
+        text: "iJooz has revolutionized our office refreshments. Our employees love the fresh juice option!"
+      },
+      {
+        name: "Sarah Chen",
+        role: "Fitness Enthusiast",
+        text: "Having iJooz at my gym is perfect. Fresh orange juice right after workout!"
+      },
+      {
+        name: "Michael Wong",
+        role: "Mall Manager",
+        text: "The iJooz machines are a hit with our shoppers. Reliable service and great quality."
+      }
+    ],
+    // Gallery section
+    galleryTitle: "Gallery",
+    galleryImageAlts: [
+      "iJooz machine in office setting",
+      "Fresh orange juice being dispensed",
+      "Close-up of iJooz vending machine",
+      "iJooz machine in public space",
+      "User enjoying fresh juice",
+      "iJooz machine interior mechanism"
     ]
   },
   zh: {
@@ -151,6 +180,35 @@ export const translations = {
         quote: "iJooz正在以其創新的智能售賣解決方案革新鮮榨果汁行業。",
         source: "科技創新雜誌"
       }
+    ],
+    // Testimonials section
+    testimonialsTitle: "客戶怎麼說",
+    testimonials: [
+      {
+        name: "張先生",
+        role: "商業老闆",
+        text: "iJooz徹底改變了我們辦公室的飲品選擇。我們的員工都喜歡這種新鮮果汁選項！"
+      },
+      {
+        name: "陳小姐",
+        role: "健身愛好者",
+        text: "在我的健身房有iJooz真是太棒了。運動後立即喝到新鮮橙汁！"
+      },
+      {
+        name: "王經理",
+        role: "商場經理",
+        text: "iJooz機器深受購物者歡迎。服務可靠，品質出色。"
+      }
+    ],
+    // Gallery section
+    galleryTitle: "圖庫",
+    galleryImageAlts: [
+      "辦公室環境中的iJooz機器",
+      "正在出果汁的iJooz機器",
+      "iJooz售賣機特寫",
+      "公共空間中的iJooz機器",
+      "用戶享用新鮮果汁",
+      "iJooz機器內部機制"
     ]
   }
 }
