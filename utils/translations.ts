@@ -133,7 +133,7 @@ export const translations = {
       contact: {
         title: "Contact",
         email: "Email: info@ijooz.com",
-        phone: "Phone: +852 1234 5678"
+        phone: "Phone: +852 5407 6026"
       },
       social: {
         title: "Follow Us",
@@ -283,7 +283,7 @@ export const translations = {
       contact: {
         title: "聯絡我們",
         email: "電郵：info@ijooz.com",
-        phone: "電話：+852 1234 5678"
+        phone: "電話：+852 5407 6026"
       },
       social: {
         title: "關注我們",

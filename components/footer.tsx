@@ -39,13 +39,7 @@ export default function Footer() {
               >
                 <Facebook className="w-6 h-6" />
               </a>
-              <a 
-                href="#" 
-                className="text-orange-200 hover:text-white transition-colors"
-                aria-label={t.footer.social.twitter}
-              >
-                <Twitter className="w-6 h-6" />
-              </a>
+          
               <a 
                 href="#" 
                 className="text-orange-200 hover:text-white transition-colors"
