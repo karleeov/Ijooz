@@ -8,6 +8,7 @@ import Testimonials from "@/components/testimonials";
 import Gallery from "@/components/gallery";
 import Supply from "@/components/supply";
 import Footer from "@/components/footer";
+import VendingLocations from "@/components/vending-locations";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <GlobalPresence />
       <MediaCoverage />
       <Testimonials />
+<VendingLocations />
       <Gallery />
       <Supply />
       <Footer />

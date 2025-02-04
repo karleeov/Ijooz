@@ -39,7 +39,7 @@ export default function MediaCoverage() {
             <Card key={index} className="bg-white/80 backdrop-blur-sm border-orange-200 shadow-xl">
               <CardContent className="p-6">
                 <p className="text-orange-700 italic">
-                  "{quote.quote}"
+                  "{quote.text}"
                 </p>
                 <div className="mt-4 font-semibold text-orange-800">- {quote.source}</div>
               </CardContent>

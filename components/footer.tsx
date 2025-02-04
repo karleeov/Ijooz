@@ -51,19 +51,22 @@ export default function Footer() {
           </div>
           <div>
             <h3 className="font-bold text-xl mb-4">{t.footer.newsletter.title}</h3>
+            <p className="text-orange-200 mb-4">
+              {t.footer.newsletter.description}
+            </p>
             <div className="flex gap-2">
               <Input 
-                placeholder={t.footer.newsletter.emailPlaceholder} 
+                placeholder={t.footer.newsletter.placeholder} 
                 className="bg-orange-800 border-orange-700 text-white placeholder-orange-300" 
               />
               <Button className="bg-orange-500 hover:bg-orange-600 text-white">
-                {t.footer.newsletter.subscribeButton}
+                {t.footer.newsletter.button}
               </Button>
             </div>
           </div>
         </div>
-        <div className="border-t border-orange-800 mt-8 pt-8 text-center text-orange-200">
-          <p>{t.footer.copyright}</p>
+        <div className="mt-12 text-center text-orange-200 text-sm">
+          {t.footer.copyright}
         </div>
       </div>
     </footer>
