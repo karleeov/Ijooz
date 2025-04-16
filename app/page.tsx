@@ -9,6 +9,7 @@ import Gallery from "@/components/gallery";
 import Supply from "@/components/supply";
 import Footer from "@/components/footer";
 import VendingLocations from "@/components/vending-locations";
+import VideoSection from "@/components/video-section";
 
 export default function Home() {
   return (
@@ -17,10 +18,11 @@ export default function Home() {
       <Features />
       <ProductShowcase />
       <HealthBenefits />
+      <VideoSection />
       <GlobalPresence />
       <MediaCoverage />
       <Testimonials />
-<VendingLocations />
+      <VendingLocations />
       <Gallery />
       <Supply />
       <Footer />
